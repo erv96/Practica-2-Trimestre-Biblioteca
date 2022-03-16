@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="biblioteca.xsl"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/CENEC%202021%20-%201%C2%BA%20DAW/Lenguaje%20de%20Marcas/2%C2%BA%20Trimestre/finalT2/biblioteca.xsd">
+  <libro>
+    <foto>summer.webp</foto>
+    <sexo>Macho</sexo>
+    <titulo>Summer is coming</titulo>
+    <autor>Milan Kundera</autor>
+    <fechaPublicacion año="2022"/>
+  </libro>
+  <libro>
+    <foto>senda.webp</foto>
+    <sexo>Hembra</sexo>
+    <titulo>Las siestas de Senda</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1973"/>
+  </libro>
+  <libro>
+    <foto>miki.webp</foto>
+    <sexo>Macho</sexo>
+    <titulo>Miki somnoliento</titulo>
+    <autor fechaNacimiento="28/03/1936">Mario Vargas Llosa</autor>
+    <fechaPublicacion año="1969"/>
+  </libro>
+</biblioteca>
