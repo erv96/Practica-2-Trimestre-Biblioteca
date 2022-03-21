@@ -29,8 +29,8 @@ img{
     align-items:flex-start;
     background-color:aliceblue;
     box-shadow: 5px 10px black;
-    height: 80%;
-    width: 90%;
+    height: 50%;
+    width: 95%;
     overflow: hidden;
 } 
 
@@ -59,9 +59,9 @@ p:hover{
 }
 
 #flex:active #copiaImagen{
-    transform: scale(1,-1) skewX(-30deg);
+    transform: scale(1,-1)translate(10%,90%);
     transform-origin: bottom;
-    filter: blur(1px) opacity(40%) contrast(150%);
+    filter: blur(20px) brightness(5%);
 }
 
 #originalImagen:active{
