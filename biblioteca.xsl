@@ -15,11 +15,20 @@
   
   <xsl:template match="libro">
 	<div id="flex">
-    <img>
-	<xsl:attribute name="src">
+    <div id="imagenCopia">
+    	<img id="copiaImagen">
+    		<xsl:attribute name="src">
     	<xsl:value-of select="foto"/>
     		</xsl:attribute>
-    </img>
+    	</img>
+    </div>
+    <div id="original">
+    	<img id="originalImagen">
+    		<xsl:attribute name="src">
+    	<xsl:value-of select="foto"/>
+    		</xsl:attribute>
+    	</img>
+    </div>
      <p>
      <xsl:value-of select="titulo"/>
      </p>    
